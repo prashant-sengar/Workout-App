@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="StringEscaping">Prashant\'s Workout</string>
+    <string name="text2">Choose your workout</string>
+    <string-array name="menu">
+        <item>Push</item>
+        <item>Pull</item>
+        <item>Legs and Shoulder</item>
+
+    </string-array>
+    <string name="click">Submit</string>
+    <string name="back">Back</string>
+</resources>

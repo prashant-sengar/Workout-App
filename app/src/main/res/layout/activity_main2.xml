@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyback"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Decline Pushups and Chest press"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/gymicon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        />
+    <View
+        android:id="@+id/div1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Decline Pushups and Chest press"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/div1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/gymicon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="170dp"
+        />
+    <View
+        android:id="@+id/div2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Decline Pushups and Chest press"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/div2"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/gymicon" />
+
+    <View
+        android:id="@+id/div3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Decline Pushups and Chest press"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/div3"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/gymicon" />
+
+    <View
+        android:id="@+id/div4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/div4"
+        android:layout_centerHorizontal="true"
+        android:onClick="goBack"
+        android:text="@string/back" />
+
+</RelativeLayout>
